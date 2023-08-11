@@ -1,0 +1,43 @@
+
+.react-resizable-handle-se {
+    top: 0;
+    right: 0;
+    cursor: w-resize;
+}
+ 
+.react-resizable-handle {
+    position: absolute;
+    width: 10px;
+    height: calc(100% - 10px);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    box-sizing: border-box;
+    background-image: none;
+    background-position: bottom right;
+    border-right: 1px solid #f0f0f0;
+    margin: 5px 0px;
+    padding: 0px;
+}
+ 
+.ant-table-header .ant-table-cell p {
+    width: calc(100% - 15px);
+    cursor: move;
+    margin-left: 5px;
+}
+ 
+.ant-table thead > tr > th {
+    margin-right: 10px;
+}
+ 
+.ant-table-header {
+    -moz-user-select:none; /* Firefox私有属性 */
+    -webkit-user-select:none; /* WebKit内核私有属性 */
+    -ms-user-select:none; /* IE私有属性(IE10及以后) */
+    -khtml-user-select:none; /* KHTML内核私有属性 */
+    -o-user-select:none; /* Opera私有属性 */
+    user-select:none; /* CSS3属性 */
+}
+ 
+.ant-table-header th:last-child .react-resizable-handle {
+    display: none;
+}
