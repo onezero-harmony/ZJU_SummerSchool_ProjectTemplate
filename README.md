@@ -13,14 +13,14 @@
 
 4. 左侧的控制栏可以控制右边三个区域要显示的数据的年份、公司类别、获得融资是第几阶段
 
-5. ![img](img_for_readme\1.png)
+5. ![img](img_for_readme/1.png)
 
-   ![img](img_for_readme\2.png)
+   ![img](img_for_readme/2.png)
 
-   ![img](img_for_readme\3.png)
+   ![img](img_for_readme/3.png)
 
 点击左侧”Funding Ratio“,"Trend","Funding Amount "可以在块状树图、八产业占比堆叠图（横坐标表示载着八个产业的总融资金额中的占比）、折线图三个视图中来回切换
 
 6. 点击View Average可以查看所选取的数据融资总额除以获融资企业数的平均融资视图
 
-   ![img](img_for_readme\4.png)
+   ![img](img_for_readme/4.png)
